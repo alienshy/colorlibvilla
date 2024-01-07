@@ -1,0 +1,87 @@
+.section {
+    width: 100%;
+
+    .sectioncon {
+        padding: 100px 32px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+
+        .you {
+            width: 100%;
+
+            h3 {
+                font-size: 15px;
+                text-transform: uppercase;
+                font-family: "Mukta Mahee", arial, sans-serif;
+                color: #b3b3b3;
+                font-weight: 100;
+            }
+        }
+        .stars{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            flex: 1 1 calc(25% - 20px);
+            max-width: calc(25% - 20px);
+            .starsimgdiv{
+                width: 100%;
+                height: 70%;
+                img{
+                    cursor: pointer;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            h3{
+                font-family: "Playfair+Display", times, serif;
+                font-size: 20px;
+                transition: 0.4s ease;
+                font-weight: 100;
+                &:hover{
+                    color: #e61c5d;;
+                }
+            }
+            .starfill{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                div{
+                    i{
+                        color: #e61c5d;
+                    }
+                }
+                p{
+                    color: #adb5bd;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1000px) {
+    .section {
+        .sectioncon {
+            .stars{
+                flex: 1 1 calc(50% - 20px);
+                max-width: calc(50% - 20px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .section {
+        width: 100%;
+    
+        .sectioncon {
+            .stars{
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,223 @@
+.section4 {
+    background-image: url('https://preview.colorlib.com/theme/villa/img/round.png.webp');
+    width: 100%;
+    margin-top: -100px;
+    padding-top: 100px;
+
+    .section4con {
+        width: 100%;
+        padding: 100px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .section4text {
+            width: 100%;
+            text-align: center;
+            gap: 20px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h1 {
+                font-size: 80px;
+                font-family: "Playfair+Display", times, serif;
+            }
+
+            p {
+                font-family: "Mukta Mahee", arial, sans-serif;
+                font-weight: 200;
+                font-size: 16px;
+                width: 60%;
+                line-height: 1.8;
+                color: #6c757d;
+            }
+            input {
+                width: 30%;
+                height: 40px;
+                opacity: 0.4;
+                font-size: 25px;
+                padding: 0px 10px;
+                border-radius: 20px;
+                border: none;
+                outline: none;
+            }
+        }
+.cardsdiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+            .cards {
+                width: calc(33% - 60px);
+                flex: 1 1 calc(33% - 60px);
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-top: 100px;
+    
+                .img {
+                    width: 100%;
+                    height: 50%;
+    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+    
+                p {
+                    font-family: "Mukta Mahee", arial, sans-serif;
+                    font-weight: 200;
+                    font-size: 16px;
+                    line-height: 1.8;
+                    padding: 10px 20px;
+                    color: #6c757d;
+                }
+    
+                i {
+                    padding: 10px 20px;
+                    cursor: pointer;
+                    transition: 0.5s ease;
+                    font-size: 30px;
+    
+                    &:hover {
+                        color: red;
+                    }
+    
+                }
+    
+                h2 {
+                    padding: 0px 20px;
+                    font-family: "Playfair+Display", times, serif;
+                }
+    
+                .info {
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                    align-items: center;
+                    height: 100px;
+                    width: 100%;
+    
+                    i {
+                        font-size: 30px;
+                    }
+    
+                    .bi-trash2-fill {
+                        &:hover {
+                            color: red;
+                        }
+                    }
+    
+                    .bi-arrow-down-square-fill {
+                        &:hover {
+                            color: rgb(0, 255, 4);
+                        }
+                    }
+    
+                    .bi-info-circle-fill {
+                        &:hover {
+                            color: rgb(246, 255, 0);
+                        }
+                    }
+    
+    
+                }
+            }}
+    
+
+        .buttoncik {
+            width: 100%;
+            padding: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            button {
+                width: 30%;
+                height: 60px;
+                text-align: center;
+                font-size: 20px;
+                color: white;
+                border: none;
+                border-radius: 30px;
+                background-color: black;
+                transition: 0.4s ease;
+
+                &:hover {
+                    background-color: rgb(0, 255, 251);
+                    color: black;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .section4 {
+        .section4con {
+
+.cardsdiv{
+       .cards {
+                max-width: calc(50% - 60px);
+                flex: 1 1 calc(50% - 60px);
+            }
+}
+         
+        }
+    }
+}
+
+@media screen and (max-width:755px) {
+    .section4 {
+        .section4con {
+            .cardsdiv{
+                     .cards {
+                max-width: 100%;
+                flex: 1 1 100%;
+            }
+            }
+       
+
+            .buttoncik {
+
+                button {
+                    width: 70%;
+
+
+                }
+            }
+        }
+    }
+}
+.getstart{
+    position: fixed;
+    right: -240px;
+    bottom: 40px;
+    width: 50px;
+    z-index: 999;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    &:hover{
+        background-color: yellow;
+    }
+    a{
+        behavior:smooth;
+    }
+    i{
+        color: white;
+        font-size: 40px;
+    }
+
+}

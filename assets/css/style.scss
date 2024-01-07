@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+    max-width: 1200px;
+    padding: 0  32px;
+    margin: 0 auto;
+}
+
+
+@import 'nav';
+@import 'menu';
+@import 'header';
+@import 'section';
+@import 'section2';
+@import 'section4';
+@import 'sectiondet';
+@import 'footer';

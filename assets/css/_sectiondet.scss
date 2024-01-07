@@ -1,0 +1,111 @@
+.section4det {
+    background-image: url('https://preview.colorlib.com/theme/villa/img/round.png.webp');
+    width: 100%;
+
+    .section4con {
+        width: 100%;
+        padding: 100px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .section4text {
+            width: 100%;
+            text-align: center;
+            gap: 20px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h1 {
+                font-size: 80px;
+                font-family: "Playfair+Display", times, serif;
+            }
+
+            p {
+                font-family: "Mukta Mahee", arial, sans-serif;
+                font-weight: 200;
+                font-size: 16px;
+                width: 60%;
+                line-height: 1.8;
+                color: #6c757d;
+            }
+        }
+.cardsdiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+            .cards {
+                width: calc(33% - 60px);
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-top: 100px;
+    
+                .img {
+                    width: 100%;
+                    height: 50%;
+    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+    
+                p {
+                    font-family: "Mukta Mahee", arial, sans-serif;
+                    font-weight: 200;
+                    font-size: 16px;
+                    line-height: 1.8;
+                    padding: 10px 20px;
+                    color: #6c757d;
+                } 
+                h2 {
+                    padding: 0px 20px;
+                    font-family: "Playfair+Display", times, serif;
+                }
+            }}
+    }
+}
+
+@media screen and (max-width:900px) {
+    .section4 {
+        .section4con {
+
+.cardsdiv{
+       .cards {
+                width: 45%;
+            }
+}
+         
+        }
+    }
+}
+
+@media screen and (max-width:560px) {
+    .section4 {
+        .section4con {
+            .cardsdiv{
+                     .cards {
+                width: 100%;
+            }
+            }
+       
+
+            .buttoncik {
+
+                button {
+                    width: 70%;
+
+
+                }
+            }
+        }
+    }
+}

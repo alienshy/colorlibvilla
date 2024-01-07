@@ -1,0 +1,110 @@
+header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp');
+    color: #fff;
+    width: 100%;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .headerdiv {
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+
+
+        h1 {
+            font-size: 70px;
+
+
+        }
+
+        p {
+            font-family: "Mukta Mahee", arial, sans-serif;
+            font-size: 30px;
+            font-weight: 200;
+            color: #fff;
+            line-height: 1.5;
+        }
+
+        .divb {
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            gap: 20px;
+
+            .button1 {
+                width: 30%;
+                height: 50px;
+                text-transform: uppercase;
+                font-size: 12px;
+                border-radius: 20px;
+                letter-spacing: .2em;
+                border: none;
+                background-color: #e61c5d;
+            color: white;
+            border-color: #e61c5d;
+            }
+
+            .button2 {
+            height: 50px;
+            color: white;
+            width: 20%;
+            border-radius: 30px;
+            border: 1px solid white;
+            text-transform: uppercase;
+            background-color: transparent;
+            font-size: 12px;
+            letter-spacing: .2em;
+            }
+        }
+    }
+}
+@media screen and (max-width:900px) {
+    header {
+        .headerdiv {
+            h1 {
+                font-size: 60px;
+                text-align: center;
+            }
+            p {
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:560px) {
+    header {
+        .headerdiv {
+            gap: 40px;
+            h1 {
+                font-size: 40px;
+                text-align: center;
+            }
+            p {
+                font-size: 20px;
+                text-align: center;
+            }
+            .divb {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .button1 {
+                    width: 90%;
+                }
+    
+                .button2 {
+                    width: 90%;
+
+                }
+            }
+        }
+    }
+}
