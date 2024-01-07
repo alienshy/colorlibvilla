@@ -10,7 +10,17 @@ nav{
         font-style: italic;
         font-size: 40px;
     }
-    i{
-        font-size: 50px;
-    }
+    div{
+        display: flex;
+        flex-direction: column;
+        a{
+            i{
+                color: white;
+            }
+        }
+i{
+    font-size: 50px;
 }
+    }
+    }
+
