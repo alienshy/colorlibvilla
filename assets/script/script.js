@@ -36,7 +36,7 @@ async function cagirma (){
     copy =  data;
 
 card.innerHTML="";
-filter=filter.length || search.value ? filter : data;0
+filter=filter.length || search.value ? filter : data;
 
 
 filter.slice(0,maxl).forEach(el =>{
